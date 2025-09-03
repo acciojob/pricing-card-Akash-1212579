@@ -1,1 +1,44 @@
-/*  your css code here. If applicable */
+ .card {
+      background: rgb(240,240,240);
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 15px;
+	  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .card h1 {
+      font-size: 28px;
+      margin: 15px 0 10px;
+      font-weight: bold;
+    }
+
+    .card p {
+      margin: 8px 0;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .card button {
+      margin-top: 15px;
+      padding: 12px 25px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      background-color: #ff6b6b;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    
